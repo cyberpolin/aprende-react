@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  display: flex;
+  padding: 0.5em 0;
+}
+nav {
+  flex: 3;
+  background: blue;
+}
+header{
+  background: yellow;
+  display: flex;
+}
+.head-title{
+  flex:8;
+  background: red;
+}
+.head-button{
+  flex:2;
+  backgroun: black;
+}
+.restaurant-img{
+  width: 75px;
+  height: 75px;
+}
+.restaurant-desc{
+  flex: 1;
+  flex-direction: column;
+  background: beige;
+  height: 75px;
+}
+.restaurant-desc>h2{
+  font-size: 12pt;
+  margin:0.5em 0;
+}
+.restaurant-desc>p{
+  font-size: 8pt;
+}
+section{
+  flex:8;
+  background: purple;
+}
